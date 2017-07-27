@@ -18,6 +18,10 @@ public class FizzBuzzApp {
 			fizzBuzz="";
 
 			//Prints "Fizz" for multiples of 3
+			if(counter%2==0)
+			{
+				fizzBuzz+="Copy";
+			}
 			if(counter%3==0)
 			{
 				fizzBuzz+="Fizz";
@@ -26,6 +30,10 @@ public class FizzBuzzApp {
 			if(counter%5==0)
 			{
 				fizzBuzz+="Buzz";
+			}
+			if(counter%10==0)
+			{
+				fizzBuzz+="Cat";
 			}
 			//converts the counter to a string value that can be displayed 
 			if(counter%3!=0&&counter%5!=0)
