@@ -3,6 +3,8 @@ package demo.aoa4eva.me;
 public class FizzBuzzApp {
 	/**
 	 * This is an application that displays "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both. 
+	 * It has been extended so that multiples of 2 and 10 show Copy and Cat respectively, and each word shows up where the number is a multiple
+	 * of any of the indicated numbers. 
 	 * @author aoa4eva
 	 * */
 	public static void main(String[] args) {
