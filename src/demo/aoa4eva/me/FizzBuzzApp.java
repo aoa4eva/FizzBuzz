@@ -6,6 +6,8 @@ public class FizzBuzzApp {
 	 * It has been extended so that multiples of 2 and 10 show Copy and Cat respectively, and each word shows up where the number is a multiple
 	 * of any of the indicated numbers. 
 	 * @author aoa4eva
+	 * 
+	 * 9:56 - I just added something to Fizz Buzz
 	 * */
 	public static void main(String[] args) {
 		//local variables 
