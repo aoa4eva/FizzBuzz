@@ -38,7 +38,7 @@ public class FizzBuzzApp {
 				fizzBuzz+="Cat";
 			}
 			//converts the counter to a string value that can be displayed 
-			if(counter%3!=0&&counter%5!=0)
+			if(counter%3!=0 && counter%5!=0 && counter%2!=0 && counter %10!=0)
 			{
 				fizzBuzz=Integer.toString(counter);
 			}
